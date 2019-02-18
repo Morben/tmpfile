@@ -1,2 +1,2 @@
 FROM linode/lamp
-COPY app/ /home/website/default/
+COPY app/ /var/www/example.com/public_html/
