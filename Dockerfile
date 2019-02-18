@@ -1,2 +1,2 @@
-FROM imagine10255/centos6-lnmp-php56:latest
+FROM linode/lamp
 COPY app/ /home/website/default/
