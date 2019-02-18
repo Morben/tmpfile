@@ -1,0 +1,5 @@
+后台：http://域名/admin/user/login
+账号adminroot 密码qwe123令牌123456
+
+http://域名
+帐号chongzhi密码123456  （注意chongzih用户账号是用来配置其他商户充值手续费用的再此帐号配置好通道即可让其他商户进行充值手续费）
