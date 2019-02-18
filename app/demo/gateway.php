@@ -24,11 +24,11 @@ $robin = 2;
 //微信设备KEY，新增加一条支付通道，会自动生成一个device Key，可在平台的公开版下看见，如果为轮训状态无需附带此参数，如果$robin参数为1的话，就必须附带设备KEY，进行单通道支付
 $device_key = '';
 //异步通知接口url->用作于接收成功支付后回调请求
-$callback_url = 'http://152.136.36.233//demo/notify.php';
+$callback_url = 'http://xjplus.xyz:20080/demo/notify.php';
 //支付成功后自动跳转url
-$success_url = 'http://152.136.36.233/demo/zzf_return.php?ddh='.$out_trade_no;
+$success_url = 'http://xjplus.xyz:20080/demo/zzf_return.php?ddh='.$out_trade_no;
 //支付失败或者超时后跳转url
-$error_url = 'http://152.136.36.233/';
+$error_url = 'http://xjplus.xyz:20080/';
 //支付类型->类型参数是服务版使用，公开版无需传参也可以
 $type = intval($_POST['type']);
 ?>
