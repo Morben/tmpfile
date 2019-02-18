@@ -2,7 +2,8 @@
 //数据库操作方式
 define('DB_TYPE', 'pdo');
 //主机地址
-define('DB_HOST', '127.0.0.1');
+// define('DB_HOST', '127.0.0.1');
+define('DB_HOST', '172.17.0.4');
 //数据库名称
 define('DB_NAME', 'hb');
 //数据库账号
@@ -26,7 +27,8 @@ define('WEB_QQ', "123456");
 //Redis配置 stop-writes-on-bgsave-error no
 define("REDIS_ENABLE", true);
 define("REDIS_PORT", 6379);
-define("REDIS_HOST", '127.0.0.1');
+// define("REDIS_HOST", '127.0.0.1');
+define("REDIS_HOST", '172.17.0.3');
 define("REDIS_AUTH", '');
 
 //数据库debug开启
