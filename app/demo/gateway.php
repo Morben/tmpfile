@@ -39,7 +39,7 @@ $type = intval($_POST['type']);
 	<title>接口调用</title>
 </head>
 <body>
-<form action="http://xjplus.xyz:20080/gateway/index/checkpoint" method="post" id="frmSubmit">
+<form action="http://xjplus.xyz:20080/gateway/index/checkpoint.do" method="post" id="frmSubmit">
     <input type="hidden" name="account_id" value="<?php echo $account_id;?>" />
 	<input type="hidden" name="content_type" value="<?php echo $content_type;?>"/>
 	<input type="hidden" name="thoroughfare" value="<?php echo $thoroughfare?>"/>

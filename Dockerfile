@@ -1,2 +1,5 @@
-FROM linode/lamp
-COPY app/ /var/www/example.com/public_html/
+FROM php:apache
+
+RUN docker-php-ext-install pdo pdo_mysql
+
+COPY app/ /var/www/html/
