@@ -1,0 +1,1 @@
+git pull && docker rmi demo && docker build -t demo . &&  docker run -it --rm --name demo -p 20080:80 -p 80:80 demo
